@@ -2,7 +2,7 @@
 
 # InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption
 
-> **Tiehan Fan**<sup>1* </sup>, **Kepan Nan**<sup>1*</sup>, **Rui Xie**<sup>1</sup>, **Penghao Zhou**<sup>2</sup>, **Zhenheng Yang**<sup>2</sup>, **Chaoyou Fu**<sup>1</sup>, **Xiang Li**<sup>3</sup>, **Jian Yang**<sup>1</sup>, **Ying Tai**<sup>1✉</sup>  
+> **[Tiehan Fan](https://scholar.google.com.hk/citations?user=F11LXvYAAAAJ&hl=zh-CN)**<sup>1* </sup>, **[Kepan Nan](https://scholar.google.com.hk/citations?hl=zh-CN&user=PXmlku8AAAAJ)**<sup>1*</sup>, **[Rui Xie](https://scholar.google.com.hk/citations?user=Dzr3D_EAAAAJ&hl=zh-CN&oi=sra)**<sup>1</sup>, **[Penghao Zhou](https://scholar.google.com.hk/citations?hl=zh-CN&user=yWq1Fd4AAAAJ)**<sup>2</sup>, **[Zhenheng Yang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Ds5wwRoAAAAJ)**<sup>2</sup>, **[Chaoyou Fu](https://bradyfu.github.io/)**<sup>1</sup>, **[Xiang Li](https://implus.github.io/)**<sup>3</sup>, **[Jian Yang](http://www.patternrecognition.cn/~jian/)**<sup>1</sup>, **[Ying Tai](https://tyshiwo.github.io/)**<sup>1✉</sup>  
 >
 > <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
 
@@ -71,6 +71,10 @@ Following [this guide](Inseval\README.md), you can use Inseval to evaluate your 
 
 ## 📖BibTeX
 ```
+@article{
+  …………
+}
+
 @article{nan2024openvid,
   title={OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation},
   author={Nan, Kepan and Xie, Rui and Zhou, Penghao and Fan, Tiehan and Yang, Zhenheng and Chen, Zhijie and Li, Xiang and Yang, Jian and Tai, Ying},
@@ -78,3 +82,6 @@ Following [this guide](Inseval\README.md), you can use Inseval to evaluate your 
   year={2024}
 }
 ```
+
+## 📧Contact Information
+Should you have any inquiries, please contact fantiehan@outlook.com.
