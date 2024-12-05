@@ -6,7 +6,7 @@
 >
 > <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://github.com/NJU-PCALab/InstanceCap) [![🤗Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow)](https://github.com/NJU-PCALab/InstanceCap) 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://github.com/NJU-PCALab/InstanceCap) [![🤗Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) 
 <!-- [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap) -->
 <!-- [![Project Page](https://img.shields.io/badge/Project-Website(comming_soon)-green)](https://github.com/NJU-PCALab/InstanceCap)  -->
 
@@ -37,7 +37,7 @@ We provide our major contribution, the python implementation of $InstanceCap$, i
 ### Meta Files
 <img src="assets\statistics.png"  width="35%" align="right"/>
 
-We release $InstanceVid$, containing 22K videos and captions. The meta file for this is provided in [HuggingFace Dataset](https://github.com/NJU-PCALab/InstanceCap) with json format, JSON contains the following properties:
+We release $InstanceVid$, containing 22K videos and captions. The meta file for this is provided in [HuggingFace Dataset](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main/train) with json format, JSON contains the following properties:
 
 - **Video**: This is the name or file path of the video being referenced.
 - **Global Description**: A brief summary of the video content, providing context about what is happening in the video.

@@ -2,7 +2,7 @@
 
 # Caption Quantitative Evaluation
 
-[![Test set](https://img.shields.io/badge/🤗HF-Test_set-yellow)](https://github.com/NJU-PCALab/InstanceCap)
+[![Test set](https://img.shields.io/badge/🤗HF-Test_set-yellow)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main)
 
 </div>
 
