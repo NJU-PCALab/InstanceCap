@@ -62,7 +62,6 @@ Following [this guide](Inseval\README.md), you can use Inseval to evaluate your 
 
 <img src="assets\detail.png"  width="32%" align="right"/>
 <img src="assets\inseval_table.png"  width="65%" align="center"/>
-<br><br><br>
 <img src="assets\action.png"  width="65%" align="center"/>
 
 ## 👏Acknowledgment
