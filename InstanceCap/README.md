@@ -54,7 +54,7 @@ python instancecap.py
 
 ### 3. Caption Quantitative Evaluation
 
-3DVAE_{score} and CLIP_{SenbySen} [usage guide](.\eval\README.md).
+**3DVAE score**  and **CLIP SenbySen** [usage guide](.\eval\README.md).
 
 <img src="..\assets\visual.png"  width="50%" align="center"/>
 
