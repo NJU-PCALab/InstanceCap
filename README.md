@@ -23,7 +23,7 @@ Text-to-video generation has evolved rapidly in recent years, delivering remarka
 - **2024.12.??**: 🚀 Our code、dataset and arXiv paper are released.
 
 ## 🔍️InstanceCap
-We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo InstanceCap](InstanceCap/README.md). Alternatively, you can use the Captioner we tweaked to LLaVA-Next-Video-7B based on $InstanceVid$ to get a high quality description with less difficulty.
+We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo InstanceCap](InstanceCap). Alternatively, you can use the Captioner we tweaked to LLaVA-Next-Video-7B based on $InstanceVid$ to get a high quality description with less difficulty.
 
 <img src="assets\pipeline-1.png"  width="100%" align="center"/>
 <img src="assets\pipeline-2.png"  width="100%" align="center"/>
@@ -54,11 +54,11 @@ We release $InstanceVid$, containing 22K videos and captions. The meta file for 
   - **Camera Movement**: Information about how the camera behaves during the video, including whether it is static or dynamic and the type of shot.
 
 ## 🏋🏽InstanceEnhancer
-We share the tuning-free InstanceEnhancer implementation process in this repository. It can easily enhance the short prompt of user input into a structured prompt,  and achieve the alignment of train-inference text data distribution. We provide prompt implementation based on GPT-4o version, you can also migrate to other models to get similar results.
+We share the tuning-free [InstanceEnhancer](./InstanceEnhancer) implementation process in this repository. It can easily enhance the short prompt of user input into a structured prompt,  and achieve the alignment of train-inference text data distribution. We provide prompt implementation based on GPT-4o version, you can also migrate to other models to get similar results.
 
 ## 📏Inseval
 We implement a CoT reasoning framework for generating structured QA responses to ensure objective and consistent evaluation, allowing us to derive instance-level evaluation scores that align closely with human perception and preferences. This approach provides a more nuanced and reliable assessment of instance-level generation quality. 
-Following [this guide](Inseval/README.md), you can use Inseval to evaluate your own generation model.
+Following [this guide](Inseval), you can use Inseval to evaluate your own generation model.
 
 <img src="assets\detail.png"  width="32%" align="right"/>
 <img src="assets\inseval_table.png"  width="65%" align="center"/>
