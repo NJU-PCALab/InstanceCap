@@ -1,1 +1,80 @@
-# InstanceCap
+<div align="center">
+
+# InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption
+
+> **Tiehan Fan**<sup>1* </sup>, **Kepan Nan**<sup>1*</sup>, **Rui Xie**<sup>1</sup>, **Penghao Zhou**<sup>2</sup>, **Zhenheng Yang**<sup>2</sup>, **Chaoyou Fu**<sup>1</sup>, **Xiang Li**<sup>3</sup>, **Jian Yang**<sup>1</sup>, **Ying Tai**<sup>1✉</sup>  
+>
+> <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://github.com/NJU-PCALab/InstanceCap) [![🤗Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow)](https://github.com/NJU-PCALab/InstanceCap) 
+<!-- [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap) -->
+<!-- [![Project Page](https://img.shields.io/badge/Project-Website(comming_soon)-green)](https://github.com/NJU-PCALab/InstanceCap)  -->
+
+
+</div>
+
+## 🗣️Abstract
+Text-to-video generation has evolved rapidly in recent years, delivering remarkable results. Training typically relies on video-caption paired data, which plays a crucial role in enhancing generation performance. However, current video captions often suffer from insufficient details, hallucinations and imprecise motion depiction, affecting the fidelity and consistency of generated videos. In this work, we propose a novel instance-aware structured caption framework, termed $InstanceCap$, to achieve instance-level and fine-grained video caption for the first time. Based on this scheme, we design an auxiliary models cluster to convert original video into instances to enhance instance fidelity. Video instances are further used to refine dense prompts into structured phrases, achieving concise yet precise descriptions. Furthermore, a $22K\ InstanceVid$ dataset is curated for training, and an enhancement pipeline that tailored to $InstanceCap$ structure is proposed for inference. Experimental results demonstrate that our proposed InstanceCap significantly outperform previous models, ensuring high fidelity between captions and videos while reducing hallucinations.
+
+<img src="assets\compare_caption_v2.png"  width="100%" align="center"/>
+
+## 🔥News
+- **Comming soon**: 🎯 Website、captioner and T2V model weights ……
+- **2024.12.??**: 🚀 Our code、dataset and arXiv paper are released.
+
+## 🔍️InstanceCap
+We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo $InstanceCap$](InstanceCap\README.md). Alternatively, you can use the Captioner we tweaked to LLaVA-Next-Video-7B based on $InstanceVid$ to get a high quality description with less difficulty.
+
+<img src="assets\pipeline-1.png"  width="100%" align="center"/>
+<img src="assets\pipeline-2.png"  width="100%" align="center"/>
+
+## 📽️InstanceVid
+### Key Features of InstanceVid
+
+1. **Instance-aware**: The dataset contains 22K videos with 22K corresponding captions, which are annotated with instance-level descriptions.
+2. **Fine-grained Structured Caption**: The dataset is designed to be used for fine-grained structured captioning, where each instance is described by a structured caption.
+
+### Meta Files
+<img src="assets\statistics.png"  width="35%" align="right"/>
+
+We release $InstanceVid$, containing 22K videos and captions. The meta file for this is provided in [HuggingFace Dataset](https://github.com/NJU-PCALab/InstanceCap) with json format, JSON contains the following properties:
+
+- **Video**: This is the name or file path of the video being referenced.
+- **Global Description**: A brief summary of the video content, providing context about what is happening in the video.
+- **Structured Description**:  Detailed breakdown of the video content, including information on the main instances (such as people and objects) and their actions.
+  - Main Instance: Represents a specific person or object in the video.
+    - No.0
+      - Class: The type or category of the instance (e.g., person, car).
+      - Appearance: A description of the physical appearance of the instance.
+      - Actions and Motion: What the instance is doing, including its movements or posture.
+      - Position: The position of the instance in the frame (e.g., bottom-left, bottom-right).
+    - No.1 
+      - ...
+  - **Background Detail**:  A description of the environment in the video background, such as the setting, props, and any significant details about the location.
+  - **Camera Movement**: Information about how the camera behaves during the video, including whether it is static or dynamic and the type of shot.
+
+## 🏋🏽InstanceEnhancer
+We share the tuning-free InstanceEnhancer implementation process in this repository. It can easily enhance the short prompt of user input into a structured prompt,  and achieve the alignment of train-inference text data distribution. We provide prompt implementation based on GPT-4o version, you can also migrate to other models to get similar results.
+
+## 📏Inseval
+We implement a CoT reasoning framework for generating structured QA responses to ensure objective and consistent evaluation, allowing us to derive instance-level evaluation scores that align closely with human perception and preferences. This approach provides a more nuanced and reliable assessment of instance-level generation quality. 
+Following [this guide](Inseval\README.md), you can use Inseval to evaluate your own generation model.
+
+<img src="assets\detail.png"  width="35%" align="right"/>
+<img src="assets\inseval_table.png"  width="65%" align="center"/>
+<br><br><br>
+<img src="assets\action.png"  width="65%" align="center"/>
+
+## 👏Acknowledgment
+
+ Our work is sponsored by HailuoAI, OpenSora, LLaVA-Video, without their excellent effects, we would have faced a lot of resistance in implementation.
+
+## 📖BibTeX
+```
+@article{nan2024openvid,
+  title={OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation},
+  author={Nan, Kepan and Xie, Rui and Zhou, Penghao and Fan, Tiehan and Yang, Zhenheng and Chen, Zhijie and Li, Xiang and Yang, Jian and Tai, Ying},
+  journal={arXiv preprint arXiv:2407.02371},
+  year={2024}
+}
+```
