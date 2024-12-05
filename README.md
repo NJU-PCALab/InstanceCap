@@ -31,7 +31,7 @@ We provide our major contribution, the python implementation of $InstanceCap$, i
 ## 📽️InstanceVid
 ### Key Features of InstanceVid
 
-1. **Instance-aware**: The dataset contains 22K videos with 22K corresponding captions, which are annotated with instance-level descriptions.
+1. **Instance-aware**: The dataset contains 22K videos with corresponding captions, which are annotated with instance-level descriptions.
 2. **Fine-grained Structured Caption**: The dataset is designed to be used for fine-grained structured captioning, where each instance is described by a structured caption.
 
 ### Meta Files
