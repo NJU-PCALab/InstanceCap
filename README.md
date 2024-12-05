@@ -60,7 +60,7 @@ We share the tuning-free InstanceEnhancer implementation process in this reposit
 We implement a CoT reasoning framework for generating structured QA responses to ensure objective and consistent evaluation, allowing us to derive instance-level evaluation scores that align closely with human perception and preferences. This approach provides a more nuanced and reliable assessment of instance-level generation quality. 
 Following [this guide](Inseval\README.md), you can use Inseval to evaluate your own generation model.
 
-<img src="assets\detail.png"  width="35%" align="right"/>
+<img src="assets\detail.png"  width="32%" align="right"/>
 <img src="assets\inseval_table.png"  width="65%" align="center"/>
 <br><br><br>
 <img src="assets\action.png"  width="65%" align="center"/>
