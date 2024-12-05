@@ -1,0 +1,25 @@
+{"name": "0000.mp4", "sentence": "A square speaker lies on a round shelf.", "instance": {"0":{"class": "speaker", "shape": "square"}, "1":{"class": "shelf", "shape": "round"}}}
+{"name": "0001.mp4", "sentence": "A round table is set with a rectangular plate.", "instance": {"0":{"class": "table", "shape": "round"}, "1":{"class": "plate", "shape": "rectangular"}}}
+{"name": "0002.mp4", "sentence": "A square pillow rests beside a round box.", "instance": {"0":{"class": "pillow", "shape": "square"}, "1":{"class": "box", "shape": "round"}}}
+{"name": "0003.mp4", "sentence": "A cylindrical vase holds flowers next to a diamond mirror.", "instance": {"0":{"class": "vase", "shape": "cylindrical"}, "1":{"class": "mirror", "shape": "diamond"}}}
+{"name": "0004.mp4", "sentence": "A cone lamp stands near a rectangular coffee table.", "instance": {"0":{"class": "lamp", "shape": "cone"}, "1":{"class": "coffee table", "shape": "rectangular"}}}
+{"name": "0005.mp4", "sentence": "A heart pillow lies on a rectangular rug.", "instance": {"0":{"class": "pillow", "shape": "heart"}, "1":{"class": "rug", "shape": "rectangular"}}}
+{"name": "0006.mp4", "sentence": "A spiral staircase winds beside a rectangular door.", "instance": {"0":{"class": "staircase", "shape": "spiral"}, "1":{"class": "door", "shape": "rectangular"}}}
+{"name": "0007.mp4", "sentence": "A diamond mirror hangs above an oval sink.", "instance": {"0":{"class": "mirror", "shape": "diamond"}, "1":{"class": "sink", "shape": "oval"}}}
+{"name": "0008.mp4", "sentence": "A square ottoman sits near a rectangular stool.", "instance": {"0":{"class": "ottoman", "shape": "square"}, "1":{"class": "stool", "shape": "rectangular"}}}
+{"name": "0009.mp4", "sentence": "A rectangular window is open next to a round clock.", "instance": {"0":{"class": "window", "shape": "rectangular"}, "1":{"class": "clock", "shape": "round"}}}
+{"name": "0010.mp4", "sentence": "A round clock hangs above a square shelf.", "instance": {"0":{"class": "clock", "shape": "round"}, "1":{"class": "shelf", "shape": "square"}}}
+{"name": "0011.mp4", "sentence": "An oval mirror is placed next to a rectangular cabinet.", "instance": {"0":{"class": "mirror", "shape": "oval"}, "1":{"class": "cabinet", "shape": "rectangular"}}}
+{"name": "0012.mp4", "sentence": "A pyramid sculpture stands beside a square plant pot.", "instance": {"0":{"class": "sculpture", "shape": "pyramid"}, "1":{"class": "plant pot", "shape": "square"}}}
+{"name": "0013.mp4", "sentence": "A square cushion rests on a star stool.", "instance": {"0":{"class": "cushion", "shape": "square"}, "1":{"class": "stool", "shape": "star"}}}
+{"name": "0014.mp4", "sentence": "A round plate lies on an oval tablecloth.", "instance": {"0":{"class": "plate", "shape": "round"}, "1":{"class": "tablecloth", "shape": "oval"}}}
+{"name": "0015.mp4", "sentence": "A round pendant light hangs over a rectangular counter.", "instance": {"0":{"class": "pendant light", "shape": "round"}, "1":{"class": "counter", "shape": "rectangular"}}}
+{"name": "0016.mp4", "sentence": "A hexagonal frame stands next to a cylindrical lamp.", "instance": {"0":{"class": "frame", "shape": "hexagonal"}, "1":{"class": "lamp", "shape": "cylindrical"}}}
+{"name": "0017.mp4", "sentence": "A rectangular phone rests beside a round coaster.", "instance": {"0":{"class": "phone", "shape": "rectangular"}, "1":{"class": "coaster", "shape": "round"}}}
+{"name": "0018.mp4", "sentence": "A rectangular backpack sits on a square stool.", "instance": {"0":{"class": "backpack", "shape": "rectangular"}, "1":{"class": "stool", "shape": "square"}}}
+{"name": "0019.mp4", "sentence": "A square picture frame is mounted next to a round clock.", "instance": {"0":{"class": "picture frame", "shape": "square"}, "1":{"class": "clock", "shape": "round"}}}
+{"name": "0020.mp4", "sentence": "A cylindrical water bottle is placed on a square desk.", "instance": {"0":{"class": "water bottle", "shape": "cylindrical"}, "1":{"class": "desk", "shape": "square"}}}
+{"name": "0021.mp4", "sentence": "A square window is open above a round table.", "instance": {"0":{"class": "window", "shape": "square"}, "1":{"class": "table", "shape": "round"}}}
+{"name": "0022.mp4", "sentence": "A star lamp sits beside a rectangular notebook.", "instance": {"0":{"class": "lamp", "shape": "star"}, "1":{"class": "notebook", "shape": "rectangular"}}}
+{"name": "0023.mp4", "sentence": "A round mirror hangs above a square plant pot.", "instance": {"0":{"class": "mirror", "shape": "round"}, "1":{"class": "plant pot", "shape": "square"}}}
+{"name": "0024.mp4", "sentence": "A round plant pot is placed next to a square box.", "instance": {"0":{"class": "plant pot", "shape": "round"}, "1":{"class": "box", "shape": "square"}}}

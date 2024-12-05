@@ -1,0 +1,25 @@
+{"name": "0000.mp4", "sentence": "A neon pink pen lies on the desk.", "instance": {"class": "pen", "color": "neon pink"}}
+{"name": "0001.mp4", "sentence": "A purple notebook sits on the floor.", "instance": {"class": "notebook", "color": "purple"}}
+{"name": "0002.mp4", "sentence": "A turquoise book rests on the table.", "instance": {"class": "book", "color": "turquoise"}}
+{"name": "0003.mp4", "sentence": "An orange chair is pushed under the desk.", "instance": {"class": "chair", "color": "orange"}}
+{"name": "0004.mp4", "sentence": "A bright yellow computer sits on the chair.", "instance": {"class": "computer", "color": "bright yellow"}}
+{"name": "0005.mp4", "sentence": "A pink mug sits on one hand.", "instance": {"class": "mug", "color": "pink"}}
+{"name": "0006.mp4", "sentence": "A white phone rests on the grass.", "instance": {"class": "phone", "color": "white"}}
+{"name": "0007.mp4", "sentence": "A red charger hangs off the chair.", "instance": {"class": "charger", "color": "red"}}
+{"name": "0008.mp4", "sentence": "A black lamp illuminates the table.", "instance": {"class": "lamp", "color": "black"}}
+{"name": "0009.mp4", "sentence": "A neon green curtain billows gently beside it.", "instance": {"class": "curtain", "color": "neon green"}}
+{"name": "0010.mp4", "sentence": "A bright purple spoon is placed on the right side of a silver fork on the plate.", "instance": {"class": "spoon", "color": "bright purple"}}
+{"name": "0011.mp4", "sentence": "A neon blue bed is made in the corner.", "instance": {"class": "bed", "color": "neon blue"}}
+{"name": "0012.mp4", "sentence": "A gold pillow is propped against the headboard.", "instance": {"class": "pillow", "color": "gold"}}
+{"name": "0013.mp4", "sentence": "A black bike leans against a pink tree.", "instance": {"class": "bike", "color": "black"}}
+{"name": "0014.mp4", "sentence": "A rainbow bench is positioned beneath its shade.", "instance": {"class": "bench", "color": "rainbow"}}
+{"name": "0015.mp4", "sentence": "A bright red sofa is centered in the room.", "instance": {"class": "sofa", "color": "bright red"}}
+{"name": "0016.mp4", "sentence": "A lime green lamp is placed on the nightstand.", "instance": {"class": "lamp", "color": "lime green"}}
+{"name": "0017.mp4", "sentence": "A neon blue rug lies on the hardwood floor.", "instance": {"class": "rug", "color": "neon blue"}}
+{"name": "0018.mp4", "sentence": "A fluorescent pink backpack hangs from the chair.", "instance": {"class": "backpack", "color": "fluorescent pink"}}
+{"name": "0019.mp4", "sentence": "A violet clock ticks quietly on the wall.", "instance": {"class": "clock", "color": "violet"}}
+{"name": "0020.mp4", "sentence": "A bright orange mouse scurries across the table.", "instance": {"class": "mouse", "color": "bright orange"}}
+{"name": "0021.mp4", "sentence": "A silver picture frame adorns the wall.", "instance": {"class": "picture frame", "color": "silver"}}
+{"name": "0022.mp4", "sentence": "A neon yellow plate is set on the dining table.", "instance": {"class": "plate", "color": "neon yellow"}}
+{"name": "0023.mp4", "sentence": "A fluorescent pink notebook is stacked on top of a table.", "instance": {"class": "notebook", "color": "fluorescent pink"}}
+{"name": "0024.mp4", "sentence": "A glowing purple plant adds life to the corner.", "instance": {"class": "plant", "color": "glowing purple"}}

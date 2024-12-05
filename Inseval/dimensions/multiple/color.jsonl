@@ -1,0 +1,25 @@
+{"name": "0000.mp4", "sentence": "A sapphire blue keychain hangs from a light brown bag.", "instance": {"0":{"class": "keychain", "color": "sapphire blue"}, "1":{"class": "bag", "color": "light brown"}}}
+{"name": "0001.mp4", "sentence": "A bright yellow bike stands next to a dark green bench.", "instance": {"0":{"class": "bike", "color": "bright yellow"}, "1":{"class": "bench", "color": "dark green"}}}
+{"name": "0002.mp4", "sentence": "A red apple rests beside a white coffee cup.", "instance": {"0":{"class": "apple", "color": "red"}, "1":{"class": "coffee cup", "color": "white"}}}
+{"name": "0003.mp4", "sentence": "A royal blue notebook lies under a metallic silver laptop.", "instance": {"0":{"class": "notebook", "color": "royal blue"}, "1":{"class": "laptop", "color": "metallic silver"}}}
+{"name": "0004.mp4", "sentence": "A bright orange basketball sits next to a black water bottle.", "instance": {"0":{"class": "basketball", "color": "bright orange"}, "1":{"class": "water bottle", "color": "black"}}}
+{"name": "0005.mp4", "sentence": "A light purple pillow rests on a dark brown sofa.", "instance": {"0":{"class": "pillow", "color": "light purple"}, "1":{"class": "sofa", "color": "dark brown"}}}
+{"name": "0006.mp4", "sentence": "A shiny gold watch lies near a deep blue wallet.", "instance": {"0":{"class": "watch", "color": "shiny gold"}, "1":{"class": "wallet", "color": "deep blue"}}}
+{"name": "0007.mp4", "sentence": "A pastel pink vase holds bright red flowers.", "instance": {"0":{"class": "vase", "color": "pastel pink"}, "1":{"class": "flowers", "color": "bright red"}}}
+{"name": "0008.mp4", "sentence": "A dark gray suitcase stands beside a yellow umbrella.", "instance": {"0":{"class": "suitcase", "color": "dark gray"}, "1":{"class": "umbrella", "color": "yellow"}}}
+{"name": "0009.mp4", "sentence": "A forest green backpack sits on a cream-colored chair.", "instance": {"0":{"class": "backpack", "color": "forest green"}, "1":{"class": "chair", "color": "cream-colored"}}}
+{"name": "0010.mp4", "sentence": "A vibrant orange cat plays near a white and blue rug.", "instance": {"0":{"class": "cat", "color": "vibrant orange"}, "1":{"class": "rug", "color": "white and blue"}}}
+{"name": "0011.mp4", "sentence": "A charcoal black camera lies beside a teal notebook.", "instance": {"0":{"class": "camera", "color": "charcoal black"}, "1":{"class": "notebook", "color": "teal"}}}
+{"name": "0012.mp4", "sentence": "A mint green plant pot sits on a dark wooden table.", "instance": {"0":{"class": "plant pot", "color": "mint green"}, "1":{"class": "table", "color": "dark wood"}}}
+{"name": "0013.mp4", "sentence": "A bronze trophy stands next to a navy blue bag.", "instance": {"0":{"class": "trophy", "color": "bronze"}, "1":{"class": "bag", "color": "navy blue"}}}
+{"name": "0014.mp4", "sentence": "A lavender candle rests beside a golden picture frame.", "instance": {"0":{"class": "candle", "color": "lavender"}, "1":{"class": "picture frame", "color": "golden"}}}
+{"name": "0015.mp4", "sentence": "A silver spoon lies on a dark green plate.", "instance": {"0":{"class": "spoon", "color": "silver"}, "1":{"class": "plate", "color": "dark green"}}}
+{"name": "0016.mp4", "sentence": "A cherry red car is parked near a pale yellow wall.", "instance": {"0":{"class": "car", "color": "cherry red"}, "1":{"class": "wall", "color": "pale yellow"}}}
+{"name": "0017.mp4", "sentence": "A cyan blue phone case sits next to a white charger.", "instance": {"0":{"class": "phone case", "color": "cyan blue"}, "1":{"class": "charger", "color": "white"}}}
+{"name": "0018.mp4", "sentence": "A matte black helmet lies beside a lime green skateboard.", "instance": {"0":{"class": "helmet", "color": "matte black"}, "1":{"class": "skateboard", "color": "lime green"}}}
+{"name": "0019.mp4", "sentence": "A burgundy notebook rests under a rose gold pen.", "instance": {"0":{"class": "notebook", "color": "burgundy"}, "1":{"class": "pen", "color": "rose gold"}}}
+{"name": "0020.mp4", "sentence": "A plum-colored cushion sits on a white armchair.", "instance": {"0":{"class": "cushion", "color": "plum"}, "1":{"class": "armchair", "color": "white"}}}
+{"name": "0021.mp4", "sentence": "A sunflower yellow mug is placed on a navy blue coaster.", "instance": {"0":{"class": "mug", "color": "sunflower yellow"}, "1":{"class": "coaster", "color": "navy blue"}}}
+{"name": "0022.mp4", "sentence": "A sky blue water bottle stands near an orange notebook.", "instance": {"0":{"class": "water bottle", "color": "sky blue"}, "1":{"class": "notebook", "color": "orange"}}}
+{"name": "0023.mp4", "sentence": "A pastel green scarf lies next to a maroon handbag.", "instance": {"0":{"class": "scarf", "color": "pastel green"}, "1":{"class": "handbag", "color": "maroon"}}}
+{"name": "0024.mp4", "sentence": "A dark purple stapler sits beside a tan-colored notebook.", "instance": {"0":{"class": "stapler", "color": "dark purple"}, "1":{"class": "notebook", "color": "tan"}}}

@@ -1,0 +1,25 @@
+{"name": "0000.mp4", "sentence": "A horse running as a butterfly flutters by.", "instance": {"0":{"class": "horse", "action": "running"}, "1":{"class": "butterfly", "action": "fluttering"}}}
+{"name": "0001.mp4", "sentence": "A bird flies above and a cat is sitting.", "instance": {"0":{"class": "bird", "action": "flying"}, "1":{"class": "cat", "action": "sitting"}}}
+{"name": "0002.mp4", "sentence": "A child jumps and a dog barks near a tree.", "instance": {"0":{"class": "child", "action": "jumping"}, "1":{"class": "dog", "action": "barking"}}}
+{"name": "0003.mp4", "sentence": "A car is moving by as a man rides on the street.", "instance": {"0":{"class": "car", "action": "moving"}, "1":{"class": "man", "action": "riding"}}}
+{"name": "0004.mp4", "sentence": "A person swims while a fish moves in the water.", "instance": {"0":{"class": "person", "action": "swimming"}, "1":{"class": "fish", "action": "moving"}}}
+{"name": "0005.mp4", "sentence": "A helicopter hovers and a boat sails beneath.", "instance": {"0":{"class": "helicopter", "action": "hovering"}, "1":{"class": "boat", "action": "sailing"}}}
+{"name": "0006.mp4", "sentence": "A train travels along the track and a dog runs beside it.", "instance": {"0":{"class": "train", "action": "traveling"}, "1":{"class": "dog", "action": "running"}}}
+{"name": "0007.mp4", "sentence": "A plane takes off and a bird flies by.", "instance": {"0":{"class": "plane", "action": "taking off"}, "1":{"class": "bird", "action": "flying"}}}
+{"name": "0008.mp4", "sentence": "A horse gallops and a person cycles alongside.", "instance": {"0":{"class": "horse", "action": "galloping"}, "1":{"class": "person", "action": "cycling"}}}
+{"name": "0009.mp4", "sentence": "A dog jumps into a pond and a fish swims nearby.", "instance": {"0":{"class": "dog", "action": "jumping"}, "1":{"class": "fish", "action": "swimming"}}}
+{"name": "0010.mp4", "sentence": "A child climbs a tree while a squirrel jumps down.", "instance": {"0":{"class": "child", "action": "climbing"}, "1":{"class": "squirrel", "action": "jumping"}}}
+{"name": "0011.mp4", "sentence": "A man reads a book as a cat lies beside him.", "instance": {"0":{"class": "man", "action": "reading"}, "1":{"class": "cat", "action": "lying"}}}
+{"name": "0012.mp4", "sentence": "A person skis down the hill while a bird circles above.", "instance": {"0":{"class": "person", "action": "skiing"}, "1":{"class": "bird", "action": "circling"}}}
+{"name": "0013.mp4", "sentence": "A boy runs as a kite flies overhead.", "instance": {"0":{"class": "boy", "action": "running"}, "1":{"class": "kite", "action": "flying"}}}
+{"name": "0014.mp4", "sentence": "A fish swims and a turtle moves on the seabed.", "instance": {"0":{"class": "fish", "action": "swimming"}, "1":{"class": "turtle", "action": "moving"}}}
+{"name": "0015.mp4", "sentence": "A drone hovers above and a car drives below.", "instance": {"0":{"class": "drone", "action": "hovering"}, "1":{"class": "car", "action": "driving"}}}
+{"name": "0016.mp4", "sentence": "A monkey swings in the tree while a snake crawls on a branch.", "instance": {"0":{"class": "monkey", "action": "swinging"}, "1":{"class": "snake", "action": "crawling"}}}
+{"name": "0017.mp4", "sentence": "A man rides a horse as a dog runs beside.", "instance": {"0":{"class": "man", "action": "riding"}, "1":{"class": "horse", "action": "galloping"}, "2":{"class": "dog", "action": "running"}}}
+{"name": "0018.mp4", "sentence": "A deer leaps over a log and a bird flies nearby.", "instance": {"0":{"class": "deer", "action": "leaping"}, "1":{"class": "bird", "action": "flying"}}}
+{"name": "0019.mp4", "sentence": "A person hikes as a bear moves slowly in the background.", "instance": {"0":{"class": "person", "action": "hiking"}, "1":{"class": "bear", "action": "moving"}}}
+{"name": "0020.mp4", "sentence": "A surfer rides a wave while a seagull flies above.", "instance": {"0":{"class": "surfer", "action": "riding"}, "1":{"class": "seagull", "action": "flying"}}}
+{"name": "0021.mp4", "sentence": "A cat jumps onto a chair while a dog watches.", "instance": {"0":{"class": "cat", "action": "jumping"}, "1":{"class": "dog", "action": "watching"}}}
+{"name": "0022.mp4", "sentence": "A chef cooks at a grill while a waiter carries dishes.", "instance": {"0":{"class": "chef", "action": "cooking"},  "1":{"class": "waiter", "action": "carrying"}}}
+{"name": "0023.mp4", "sentence": "A whale surfaces and a boat floats nearby.", "instance": {"0":{"class": "whale", "action": "surfacing"}, "1":{"class": "boat", "action": "floating"}}}
+{"name": "0024.mp4", "sentence": "A frog leaps and a fly buzzes above.", "instance": {"0":{"class": "frog", "action": "leaping"}, "1":{"class": "fly", "action": "buzzing"}}}

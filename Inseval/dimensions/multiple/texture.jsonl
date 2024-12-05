@@ -1,0 +1,25 @@
+{"name": "0000.mp4", "sentence": "A satin pillow sits on a faux leather sofa.", "instance": {"0":{"class": "pillow", "texture": "satin"}, "1":{"class": "sofa", "texture": "faux leather"}}}
+{"name": "0001.mp4", "sentence": "A rough glass vase sits on the wooden table.", "instance": {"0":{"class": "vase", "texture": "rough"}, "1":{"class": "table", "texture": "wooden"}}}
+{"name": "0002.mp4", "sentence": "A soft blanket is folded next to a metal lamp.", "instance": {"0":{"class": "blanket", "texture": "soft"}, "1":{"class": "lamp", "texture": "metal"}}}
+{"name": "0003.mp4", "sentence": "A rigid pillow lies on the leather couch.", "instance": {"0":{"class": "pillow", "texture": "rigid"}, "1":{"class": "couch", "texture": "leather"}}}
+{"name": "0004.mp4", "sentence": "A sleek smartphone rests on a rough concrete countertop.", "instance": {"0":{"class": "smartphone", "texture": "sleek"}, "1":{"class": "countertop", "texture": "concrete"}}}
+{"name": "0005.mp4", "sentence": "A rigid jute rug lies under a glass coffee table.", "instance": {"0":{"class": "rug", "texture": "rigid"}, "1":{"class": "coffee table", "texture": "glass"}}}
+{"name": "0006.mp4", "sentence": "A silky scarf is draped over a plastic chair.", "instance": {"0":{"class": "scarf", "texture": "silky"}, "1":{"class": "chair", "texture": "plastic"}}}
+{"name": "0007.mp4", "sentence": "A rough photo frame sits on a marble shelf.", "instance": {"0":{"class": "photo frame", "texture": "rough"}, "1":{"class": "shelf", "texture": "marble"}}}
+{"name": "0008.mp4", "sentence": "A velvet cushion rests on a wooden bench.", "instance": {"0":{"class": "cushion", "texture": "velvet"}, "1":{"class": "bench", "texture": "wooden"}}}
+{"name": "0009.mp4", "sentence": "A metallic backpack lies next to a stainless steel water bottle.", "instance": {"0":{"class": "backpack", "texture": "metallic"}, "1":{"class": "water bottle", "texture": "stainless steel"}}}
+{"name": "0010.mp4", "sentence": "A paper book rests on a cotton blanket.", "instance": {"0":{"class": "book", "texture": "paper"}, "1":{"class": "blanket", "texture": "cotton"}}}
+{"name": "0011.mp4", "sentence": "A glossy notebook lies beside a glass of iced coffee.", "instance": {"0":{"class": "notebook", "texture": "glossy"}, "1":{"class": "glass", "texture": "glass"}}}
+{"name": "0012.mp4", "sentence": "A linen curtain hangs beside a stone wall.", "instance": {"0":{"class": "curtain", "texture": "linen"}, "1":{"class": "wall", "texture": "stone"}}}
+{"name": "0013.mp4", "sentence": "A stiff woolen hat rests on a metal shelf.", "instance": {"0":{"class": "hat", "texture": "stiff woolen"}, "1":{"class": "shelf", "texture": "metal"}}}
+{"name": "0014.mp4", "sentence": "A ceramic mug is placed on a cork coaster.", "instance": {"0":{"class": "mug", "texture": "ceramic"}, "1":{"class": "coaster", "texture": "cork"}}}
+{"name": "0015.mp4", "sentence": "A hard velvet chair sits near a concrete wall.", "instance": {"0":{"class": "chair", "texture": "hard velvet"}, "1":{"class": "wall", "texture": "concrete"}}}
+{"name": "0016.mp4", "sentence": "A bamboo mat lies on the polished wooden floor.", "instance": {"0":{"class": "mat", "texture": "bamboo"}, "1":{"class": "floor", "texture": "polished wood"}}}
+{"name": "0017.mp4", "sentence": "A plastic leather-bound book rests beside a wool blanket.", "instance": {"0":{"class": "book", "texture": "plastic leather-bound"}, "1":{"class": "blanket", "texture": "wool"}}}
+{"name": "0018.mp4", "sentence": "A textured ceramic bowl sits on a plastic tray.", "instance": {"0":{"class": "bowl", "texture": "textured ceramic"}, "1":{"class": "tray", "texture": "plastic"}}}
+{"name": "0019.mp4", "sentence": "A hard cotton pillow lies on a rough jute rug.", "instance": {"0":{"class": "pillow", "texture": "hard cotton"}, "1":{"class": "rug", "texture": "rough jute"}}}
+{"name": "0020.mp4", "sentence": "A shiny silver spoon rests on a ceramic plate.", "instance": {"0":{"class": "spoon", "texture": "shiny silver"}, "1":{"class": "plate", "texture": "ceramic"}}}
+{"name": "0021.mp4", "sentence": "A plush stone paperweight sits beside a smooth metal pen.", "instance": {"0":{"class": "paperweight", "texture": "plush stone"}, "1":{"class": "pen", "texture": "smooth metal"}}}
+{"name": "0022.mp4", "sentence": "A soft plush toy is placed on a metal rack.", "instance": {"0":{"class": "toy", "texture": "soft plush"}, "1":{"class": "rack", "texture": "metal"}}}
+{"name": "0023.mp4", "sentence": "A glossy tablet rests on a bamboo stand.", "instance": {"0":{"class": "tablet", "texture": "glossy"}, "1":{"class": "stand", "texture": "bamboo"}}}
+{"name": "0024.mp4", "sentence": "A fuzzy blanket covers a hard plastic chair.", "instance": {"0":{"class": "blanket", "texture": "fuzzy"}, "1":{"class": "chair", "texture": "hard plastic"}}}

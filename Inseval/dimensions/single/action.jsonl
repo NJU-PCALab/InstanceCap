@@ -1,0 +1,25 @@
+{"name": "0000.mp4", "sentence": "A tall man stands at the left.", "instance": {"class": "man", "action": "standing"}}
+{"name": "0001.mp4", "sentence": "A graceful woman stands at the right.", "instance": {"class": "woman", "action": "standing"}}
+{"name": "0002.mp4", "sentence": "A cute girl runs in the grass at the center.", "instance": {"class": "girl", "action": "running"}}
+{"name": "0003.mp4", "sentence": "A fierce lion prowls through the tall grass.", "instance": {"class": "lion", "action": "prowling"}}
+{"name": "0004.mp4", "sentence": "A playful cat jumps onto the windowsill.", "instance": {"class": "cat", "action": "jumping"}}
+{"name": "0005.mp4", "sentence": "A handsome boy rides a bike down the path.", "instance": {"class": "boy", "action": "riding"}}
+{"name": "0006.mp4", "sentence": "A kind man of thirty holds his son’s hand.", "instance": {"class": "man", "action": "holding hands"}}
+{"name": "0007.mp4", "sentence": "A friendly dog poses for a picture.", "instance": {"class": "dog", "action": "posing"}}
+{"name": "0008.mp4", "sentence": "A beautiful girl plays a game on the floor.", "instance": {"class": "girl", "action": "playing"}}
+{"name": "0009.mp4", "sentence": "A tall man walks through the playground.", "instance": {"class": "man", "action": "walking"}}
+{"name": "0010.mp4", "sentence": "A playful dog fetches a ball in the park.", "instance": {"class": "dog", "action": "fetching"}}
+{"name": "0011.mp4", "sentence": "A cheerful woman laughs at a café table.", "instance": {"class": "woman", "action": "laughing"}}
+{"name": "0012.mp4", "sentence": "A young boy swings on the playground.", "instance": {"class": "boy", "action": "swinging"}}
+{"name": "0013.mp4", "sentence": "A swift lion sprints across the plain.", "instance": {"class": "lion", "action": "sprinting"}}
+{"name": "0014.mp4", "sentence": "A thoughtful man stands discussing a project.", "instance": {"class": "man", "action": "discussing"}}
+{"name": "0015.mp4", "sentence": "A curious girl shares stories under a tree.", "instance": {"class": "girl", "action": "sharing stories"}}
+{"name": "0016.mp4", "sentence": "A relaxed woman sits at a restaurant.", "instance": {"class": "woman", "action": "sitting"}}
+{"name": "0017.mp4", "sentence": "A joyful man dances at a wedding.", "instance": {"class": "man", "action": "dancing"}}
+{"name": "0018.mp4", "sentence": "A playful girl plays in the backyard.", "instance": {"class": "girl", "action": "playing"}}
+{"name": "0019.mp4", "sentence": "A young boy walks down the street.", "instance": {"class": "boy", "action": "walking"}}
+{"name": "0020.mp4", "sentence": "A tiny toddler runs towards a ball.", "instance": {"class": "toddler", "action": "running"}}
+{"name": "0021.mp4", "sentence": "A determined man hikes up the mountain trail.", "instance": {"class": "man", "action": "hiking"}}
+{"name": "0022.mp4", "sentence": "A lazy dog lounges on the porch.", "instance": {"class": "dog", "action": "lounging"}}
+{"name": "0023.mp4", "sentence": "A happy girl skips along the sidewalk.", "instance": {"class": "girl", "action": "skipping"}}
+{"name": "0024.mp4", "sentence": "A fit man jogs through the neighborhood.", "instance": {"class": "man", "action": "jogging"}}
