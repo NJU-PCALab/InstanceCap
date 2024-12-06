@@ -66,7 +66,7 @@ Following [this guide](Inseval), you can use Inseval to evaluate your own genera
 
 ## 👏Acknowledgment
 
- Our work is  benefited from [HailuoAI](https://hailuoai.com/video), [OpenSora](https://github.com/hpcaitech/Open-Sora), [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT) and [CogvideoX](https://github.com/THUDM/CogVideo?tab=readme-ov-file), without their excellent effects, we would have faced a lot of resistance in implementation.
+ Our work is benefited from [HailuoAI](https://hailuoai.com/video), [OpenSora](https://github.com/hpcaitech/Open-Sora), [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT) and [CogvideoX](https://github.com/THUDM/CogVideo?tab=readme-ov-file), without their excellent effects, we would have faced a lot of resistance in implementation.
 
 ## 📖BibTeX
 ```
