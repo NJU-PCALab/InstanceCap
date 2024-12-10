@@ -36,7 +36,7 @@ First, use your T2V model to reason about prompts under [dimensions](.\dimension
 ```
 
 ## 3. Evaluation
-After modifying the files in inseval_singlet. py and inseval_multiple.py to the correct path:
+After modifying the files in inseval_single.py and inseval_multiple.py to the correct path:
 ```bash
 bash run.sh
 ```
