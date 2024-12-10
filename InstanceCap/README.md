@@ -2,7 +2,7 @@
 
 # InstanceCap
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://github.com/NJU-PCALab/InstanceCap) [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://github.com/NJU-PCALab/InstanceCap) [![Models](https://img.shields.io/badge/🤗HF-Captioner(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap)
 
 </div>
 

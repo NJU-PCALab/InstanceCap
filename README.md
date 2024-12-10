@@ -6,7 +6,7 @@
 >
 > <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://github.com/NJU-PCALab/InstanceCap) [![🤗Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) 
+ [![code](https://img.shields.io/badge/Github-code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](https://github.com/NJU-PCALab/InstanceCap) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) 
 <!-- [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap) -->
 <!-- [![Project Page](https://img.shields.io/badge/Project-Website(comming_soon)-green)](https://github.com/NJU-PCALab/InstanceCap)  -->
 
@@ -19,8 +19,8 @@ Text-to-video generation has evolved rapidly in recent years, delivering remarka
 <img src="assets\compare_caption_v2.png"  width="100%" align="center"/>
 
 ## 🔥News
-- **Comming soon**: 🎯 Website、captioner and T2V model weights ……
-- **2024.12.??**: 🚀 Our code、dataset and arXiv paper are released.
+- **Comming soon**: 🎯 Website and T2V model weights ……
+- **2024.12.??**: 🚀 Our code、end-to-end captioner、dataset and arXiv paper are released.
 
 ## 🔍️InstanceCap
 We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo InstanceCap](InstanceCap). Alternatively, you can use the Captioner we tweaked to LLaVA-Next-Video-7B based on $InstanceVid$ to get a high quality description with less difficulty.
