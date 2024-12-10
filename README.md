@@ -19,8 +19,8 @@ Text-to-video generation has evolved rapidly in recent years, delivering remarka
 <img src="assets\compare_caption_v2.png"  width="100%" align="center"/>
 
 ## 🔥News
-- **Comming soon**: 🎯 Website and T2V model weights ……
-- **2024.12.??**: 🚀 Our code、end-to-end captioner、dataset and arXiv paper are released.
+- **Comming soon**: 🎯 Website, end-to-end captioner and T2V model weights ……
+- **2024.12.??**: 🚀 Our code, dataset and arXiv paper are released.
 
 ## 🔍️InstanceCap
 We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo InstanceCap](InstanceCap). Alternatively, you can use the Captioner we tweaked to LLaVA-Next-Video-7B based on $InstanceVid$ to get a high quality description with less difficulty.
