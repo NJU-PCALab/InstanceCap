@@ -24,7 +24,7 @@ device = "cuda"
 parser = argparse.ArgumentParser()
 parser.add_argument("--llava-next-video-path", type=str, default="/root/data/weights/LLaVA-Video-72B-Qwen2/")
 parser.add_argument("--video-base", type=str, default="")
-parser.add_argument("--output", type=str, default="./results/ourcog10500/multiple")
+parser.add_argument("--output", type=str, default="./results/ours/multiple")
 parser.add_argument("--dimensions", type=str, nargs="+", default=["action", "color", "shape", "texture", "detail"])
 args = parser.parse_args()
 
@@ -161,7 +161,7 @@ def handle_dimension(dimension_data, video_folder_path, dimension_type):
             tmp_conv = conv.copy()
             tmp_conv.append_message(
                 tmp_conv.roles[0],
-                f"Tell me if it is possible that '{instance_class}' is in the video?  Note that it has large possibilities in the video."
+                f"Tell me if it is possible that '{instance_class}' is in the video?"
                 f"Note the synonyms of '{instance_class}'. Your answer can only be YES or NO. "
                 f"Do not output any answer that is not YES or NO."
             )
@@ -178,7 +178,7 @@ def handle_dimension(dimension_data, video_folder_path, dimension_type):
             conv_instance.append_message(
                 conv_instance.roles[0],
                 f"Based on your previous answer, tell me what is the '{dimension_type}' of '{instance_class}' in the video? "
-            "Be careful to ignore camera movement."
+                "Be careful to ignore camera movement."
             )
             answer_dimension = get_answer(model, tokenizer, original_video, conv_instance)
             conv_instance.append_message(conv_instance.roles[1], answer_dimension)
@@ -189,7 +189,7 @@ def handle_dimension(dimension_data, video_folder_path, dimension_type):
             if dimension_type == "detail":
                 conv_instance.append_message(
                     conv_instance.roles[0],
-                    f"Is the '{instance_specific}' of '{instance_class}' completely reflected in the video? "
+                    f"Is the '{instance_specific}' of '{instance_class}' completely reflected in the video?"
                     "Your answer can only be YES or NO. Do not output any answer that is not YES or NO."
                 )
             else:

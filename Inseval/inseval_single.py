@@ -24,7 +24,7 @@ device = "cuda"
 parser = argparse.ArgumentParser()
 parser.add_argument("--llava-next-video-path", type=str, default="/root/data/weights/LLaVA-Video-72B-Qwen2/")
 parser.add_argument("--video-base", type=str, default="")
-parser.add_argument("--output", type=str, default="./results/ourcog10500/single")
+parser.add_argument("--output", type=str, default="./results/ours/single")
 parser.add_argument("--dimensions", type=str, nargs="+", default=["action", "color", "shape", "texture", "detail"])
 args = parser.parse_args()
 
@@ -191,12 +191,12 @@ def handle_dimension(dimension_data, video_folder_path, dimension_type):
 
         if dimension_type == "detail":
             conv.append_message(conv.roles[0], (
-                f"Is the '{instance_specific}' of '{instance_class}' partly reflected in the video?"
+                f"Is the '{instance_specific}' of '{instance_class}' completely reflected in the video?"
                 "Your answer can only be YES or NO. Do not output any answer that is not YES or NO."
             ))
         else:
             conv.append_message(conv.roles[0], (
-                f"Do you think the '{dimension_type}' of '{instance_class}' in the video Approximatly close to to '{instance_specific}'? "
+                f"Do you think the '{dimension_type}' of '{instance_class}' in the video completely matches to '{instance_specific}'? "
                 "Your answer can only be YES or NO. Do not output any answer that is not YES or NO."
             ))
 
