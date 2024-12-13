@@ -6,7 +6,7 @@
 >
 > <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
 
- [![code](https://img.shields.io/badge/Github-Code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](https://github.com/NJU-PCALab/InstanceCap) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) 
+ [![code](https://img.shields.io/badge/Github-Code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2412.09283) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) 
 <!-- [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap) -->
 <!-- [![Project Page](https://img.shields.io/badge/Project-Website(comming_soon)-green)](https://github.com/NJU-PCALab/InstanceCap)  -->
 
