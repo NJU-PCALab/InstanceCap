@@ -70,8 +70,14 @@ Following [this guide](Inseval), you can use Inseval to evaluate your own genera
 
 ## 📖BibTeX
 ```
-@article{
-  …………
+@misc{fan2024instancecapimprovingtexttovideogeneration,
+      title={InstanceCap: Improving Text-to-Video Generation via Instance-aware Structured Caption}, 
+      author={Tiehan Fan and Kepan Nan and Rui Xie and Penghao Zhou and Zhenheng Yang and Chaoyou Fu and Xiang Li and Jian Yang and Ying Tai},
+      year={2024},
+      eprint={2412.09283},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.09283}, 
 }
 
 @article{nan2024openvid,
