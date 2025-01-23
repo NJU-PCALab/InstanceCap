@@ -286,3 +286,71 @@ def get_blue_screen_videos(question, predictor, video_dir = "../temp", num_frame
         positions[obj_id] = process_list(positions[obj_id])
 
     return blue_screen_frames, positions, frame_time, video_time
+
+
+def apply_ellipse_red_circle(mask, image):
+    # 找到mask的中心点
+    center = find_center_of_trues(mask[0])
+
+    # 计算椭圆的轴长
+    axes_length = (50, 30)  # 你可以根据需要调整椭圆的大小
+
+    # 在图像上绘制椭圆红圈
+    cv2.ellipse(image, center, axes_length, 0, 0, 360, (0, 0, 255), 2)  # 红色椭圆的厚度为2
+
+    return image
+
+
+def get_ellipse_red_circle_videos(question, predictor, video_dir="../temp", num_frames=8):
+    bboxes = question['bboxes']
+    spare_frames, frame_time, video_time = video_to_frames(question['video_path'], output_dir=video_dir,
+                                                           num_frames=num_frames)
+    frame_count = len(spare_frames)
+
+    # 扫描目录中的所有JPEG帧
+    frame_names = [
+        p for p in os.listdir(video_dir)
+        if os.path.splitext(p)[-1] in [".jpg", ".jpeg", ".JPG", ".JPEG"]
+    ]
+    frame_names.sort(key=lambda p: int(os.path.splitext(p)[0]))
+    frame_names = frame_names[:frame_count]
+    frames = [cv2.imread(os.path.join(video_dir, p)) for p in frame_names]
+
+    inference_state = predictor.init_state(video_path=video_dir)
+    predictor.reset_state(inference_state)
+
+    for ann_obj_id, bbox in enumerate(bboxes):
+        box = np.array(bbox)
+        _, out_obj_ids, out_mask_logits = predictor.add_new_points_or_box(
+            inference_state=inference_state,
+            frame_idx=0,
+            obj_id=ann_obj_id,
+            box=box,
+        )
+
+    video_segments = {}  # video_segments包含每帧的分割结果
+    positions = {}
+    for out_frame_idx, out_obj_ids, out_mask_logits in predictor.propagate_in_video(inference_state):
+        video_segments[out_frame_idx] = {
+            out_obj_id: (out_mask_logits[i] > 0.0).cpu().numpy()
+            for i, out_obj_id in enumerate(out_obj_ids)
+        }
+
+    ellipse_frames = {}
+    for out_frame_idx in tqdm(range(0, len(frame_names)), desc='Add red ellipse'):
+        for out_obj_id, out_mask in video_segments[out_frame_idx].items():
+            if out_obj_id not in ellipse_frames:
+                ellipse_frames[out_obj_id] = []
+                positions[out_obj_id] = []
+
+            image = frames[out_frame_idx]
+            ellipse_frames[out_obj_id].append(apply_ellipse_red_circle(out_mask, image))
+
+            center = find_center_of_trues(out_mask[0])
+            positions[out_obj_id].append(get_region(center))
+
+    for obj_id in ellipse_frames:
+        ellipse_frames[obj_id] = np.array(ellipse_frames[obj_id])
+        positions[obj_id] = process_list(positions[obj_id])
+
+    return ellipse_frames, positions, frame_time, video_time
