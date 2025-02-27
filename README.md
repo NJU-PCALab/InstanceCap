@@ -20,6 +20,7 @@ Text-to-video generation has evolved rapidly in recent years, delivering remarka
 
 ## 🔥News
 - **Comming soon**: 🎯 Website, end-to-end captioner and T2V model weights ……
+- **2025.2.27**: 🎉 Paper Accepted to **CVPR 2025!** 🎉
 - **2024.12.13**: 🚀 Our code, dataset and arXiv paper are released.
 
 ## 🔍️InstanceCap
