@@ -24,9 +24,9 @@ def encode_video(model, video_path):
     video_reader = imageio.get_reader(video_path, "ffmpeg")
 
     transform = transforms.Compose([
-        transforms.ToPILImage(),  # 将 numpy 数组转换为 PIL 图像
-        transforms.Resize((224, 224)),  # 调整图像大小到 224x224
-        transforms.ToTensor(),  # 转换为 PyTorch 张量
+        transforms.ToPILImage(), 
+        transforms.Resize((224, 224)),
+        transforms.ToTensor(), 
     ])
 
     frames = [transform(frame) for frame in video_reader]
@@ -48,8 +48,8 @@ def cal_3dvae_score(model, ori_video_path, gen_video_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default='./cogvideox/CogVideoX-5b/vae')
-    parser.add_argument("--ori_videos", type=str, default='',
+    parser.add_argument("--model-path", type=str, default='cogvideox/CogVideoX-5b/vae/')
+    parser.add_argument("--ori_videos", type=str, default='vid500/openvid500',
                         help="path to ori_videos")
     parser.add_argument("--gen_videos", type=str, default='',
                         help="path to gen_videos")
@@ -90,17 +90,27 @@ if __name__ == '__main__':
     # set up logging +++++++++++++++++++++++++++++++++
     # Load pretrained models
 
-    scores = []
-    average_score = 0
+    average_score = 0.0
+    count = 0  
+
     for i in tqdm(range(len(ori_video_paths))):
         ori_video_path = ori_video_paths[i]
         gen_video_path = gen_video_paths[i]
 
         score = cal_3dvae_score(model, ori_video_path, gen_video_path)
-        scores.append(score)
-        average_score = sum(scores) / len(scores)
+
+        if np.isnan(score) or np.isinf(score):
+            logging.info(f"Vid:{os.path.basename(ori_video_path)} and {os.path.basename(gen_video_path)}, "
+                        f"Current 3D VAE score: {score}, Current avg. 3D VAE score: {average_score}")
+            continue
+
+        count += 1
+
+        average_score = average_score + (score - average_score) / count
 
         logging.info(
-            f"Vid:{os.path.basename(ori_video_path)} and {os.path.basename(gen_video_path)},  Current 3D VAE score: {score}, Current avg. 3D VAE score: {average_score},  ")
+            f"Vid:{os.path.basename(ori_video_path)} and {os.path.basename(gen_video_path)}, "
+            f"Current 3D VAE score: {score}, Current avg. 3D VAE score: {average_score}")
 
-    logging.info(f"Final 3D VAE score: {average_score}, Total videos: {len(scores)}")
+    logging.info(f"Final 3D VAE score: {average_score}, Total videos: {len(ori_video_paths)}, ")
+    
