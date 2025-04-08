@@ -25,7 +25,7 @@ Text-to-video generation has evolved rapidly in recent years, delivering remarka
 - **2024.12.13**: 🚀 Our code, dataset and arXiv paper are released.
 
 ## 🔍️InstanceCap
-We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo InstanceCap](InstanceCap). Alternatively, you can use the Captioner we tweaked to LLaVA-Next-Video-7B based on $InstanceVid$ to get a high quality description with less difficulty.
+We provide our major contribution, the python implementation of $InstanceCap$, in this repository, and you can install and use the full version of our proposal based on [guide fo InstanceCap](InstanceCap). Alternatively, you can use the Captioner we tweaked to Qwen2.5-VL-7B based on $InstanceVid$ to get a high quality description with less difficulty.
 
 <img src="assets\pipeline-1.png"  width="100%" align="center"/>
 <img src="assets\pipeline-2.png"  width="100%" align="center"/>
