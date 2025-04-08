@@ -6,7 +6,7 @@
 >
 > <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
 
- [![code](https://img.shields.io/badge/Github-Code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2412.09283) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) 
+ [![code](https://img.shields.io/badge/Github-Code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2412.09283) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) [![Models](https://img.shields.io/badge/🤗HF-Captioner-yellow)](https://huggingface.co/AnonMegumi/InstanceCap-Captioner)
 <!-- [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap) -->
 <!-- [![Project Page](https://img.shields.io/badge/Project-Website(comming_soon)-green)](https://github.com/NJU-PCALab/InstanceCap)  -->
 
@@ -19,7 +19,8 @@ Text-to-video generation has evolved rapidly in recent years, delivering remarka
 <img src="assets\compare_caption_v2.png"  width="100%" align="center"/>
 
 ## 🔥News
-- **Comming soon**: 🎯 Website, end-to-end captioner and T2V model weights ……
+- **Comming soon**: 🎯 T2V model weights ……
+- **2025.4.8**：🤖 **InstanceCap-Captioner** is released.
 - **2025.2.27**: 🎉 Paper Accepted to **CVPR 2025!** 🎉
 - **2024.12.13**: 🚀 Our code, dataset and arXiv paper are released.
 
@@ -67,7 +68,7 @@ Following [this guide](Inseval), you can use Inseval to evaluate your own genera
 
 ## 👏Acknowledgment
 
- Our work is benefited from [HailuoAI](https://hailuoai.com/video), [OpenSora](https://github.com/hpcaitech/Open-Sora), [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT), [CogvideoX](https://github.com/THUDM/CogVideo?tab=readme-ov-file) and [OpenVid-1M(data)](https://huggingface.co/datasets/nkp37/OpenVid-1M), without their excellent effects, we would have faced a lot of resistance in implementation.
+ Our work is benefited from [HailuoAI](https://hailuoai.com/video), [OpenSora](https://github.com/hpcaitech/Open-Sora), [LLaVA-Video](https://github.com/LLaVA-VL/LLaVA-NeXT), [CogvideoX](https://github.com/THUDM/CogVideo?tab=readme-ov-file), [Qwen](https://huggingface.co/Qwen) and [OpenVid-1M(data)](https://huggingface.co/datasets/nkp37/OpenVid-1M), without their excellent effects, we would have faced a lot of resistance in implementation.
 
 ## 📖BibTeX
 ```
