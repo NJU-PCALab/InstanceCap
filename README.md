@@ -6,7 +6,7 @@
 >
 > <sup>1</sup> Nanjing University   <sup>2</sup> ByteDance   <sup>3</sup> Nankai University   <sup>*</sup>Equal Contribution   <sup>✉</sup>Corresponding Author
 
- [![code](https://img.shields.io/badge/Github-Code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2412.09283) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) [![Models](https://img.shields.io/badge/🤗HF-Captioner-yellow)](https://huggingface.co/AnonMegumi/InstanceCap-Captioner)
+ [![code](https://img.shields.io/badge/Github-Code-blue.svg?logo=github)](https://github.com/NJU-PCALab/InstanceCap) [![arXiv](https://img.shields.io/badge/2025-CVPR-ligntgreen.svg?logo=paperlessngx)](https://openaccess.thecvf.com/content/CVPR2025/papers/Fan_InstanceCap_Improving_Text-to-Video_Generation_via_Instance-aware_Structured_Caption_CVPR_2025_paper.pdf) [![Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow.svg)](https://huggingface.co/datasets/AnonMegumi/InstanceVid/tree/main) [![Models](https://img.shields.io/badge/🤗HF-Captioner-yellow)](https://huggingface.co/AnonMegumi/InstanceCap-Captioner)
 <!-- [![Models](https://img.shields.io/badge/🤗HF-Models(comming_soon)-yellow)](https://github.com/NJU-PCALab/InstanceCap) -->
 <!-- [![Project Page](https://img.shields.io/badge/Project-Website(comming_soon)-green)](https://github.com/NJU-PCALab/InstanceCap)  -->
 
