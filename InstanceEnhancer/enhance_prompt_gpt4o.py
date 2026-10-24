@@ -1,6 +1,12 @@
-from openai import OpenAI
 import json
-from human_hit import example_message, split_example_message
+import sys
+from pathlib import Path
+
+from openai import OpenAI
+
+# Resolve the shared examples relative to this file, regardless of the working directory.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from InstanceCap.projects.human_hit import example_message, split_example_message
 
 def split_text_by_break(text):
     parts = [part.strip() for part in text.split('BREAK')]
